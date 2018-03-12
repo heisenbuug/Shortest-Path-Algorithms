@@ -1,5 +1,4 @@
 #include<stdio.h>
-//#include<conio>
 #include<stdlib.h>
 int i,j,k,a,b,u,v,n,ne=1;
 int min,mincost=0,cost[9][9],parent[9];
@@ -8,8 +7,6 @@ int uni(int,int);
 
 int main()
 {
-	//clrscr();
-	printf("\n\tImplementation of Kruskal's algorithm\n");
 	printf("\nEnter the no. of vertices:");
 	scanf("%d",&n);
 	printf("\nEnter the cost adjacency matrix:\n");
